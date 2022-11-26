@@ -209,3 +209,11 @@ blockquote {
   border-radius: 12px;
   width: 140px;
 }
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-weight: lighter;
+  text-align: center;
+  padding: 33px 0;
+}
