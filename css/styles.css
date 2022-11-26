@@ -113,7 +113,8 @@ ul {
 }
 
 .section-information {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .section-information h3 {
@@ -141,4 +142,27 @@ ul {
   color: #747474;
   text-align: center;
   font-size: 18px;
+}
+
+.section-quote {
+  background-color: #e5e7eb;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.container-qoute {
+  margin: 0 360px;
+  padding: 120px 0;
+}
+
+.container-qoute p {
+  color: #1f2937;
+  font-weight: bold;
+  text-align: end;
+  font-size: 21px;
+  margin-right: 34px;
 }
