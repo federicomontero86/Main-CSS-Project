@@ -13,6 +13,11 @@
   src: url(../fonts/Roboto-LightItalic.ttf) format("truetype");
   font-style: italic;
 }
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+  font-style: light;
+}
 
 * {
   box-sizing: border-box;
@@ -165,4 +170,42 @@ blockquote {
   text-align: end;
   font-size: 21px;
   margin-right: 34px;
+}
+
+.section-action {
+  margin: 90px 210px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  padding: 60px 90px;
+  border-radius: 12px;
+}
+
+.container-action {
+  /* margin: 0 360px; */
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-action h4 {
+  color: #e5e7eb;
+  font-size: 24px;
+}
+
+.container-action p {
+  color: #e5e7eb;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.container-action button {
+  border: 3px solid #e5e7eb;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  /* padding: 8px 12px; */
+  border-radius: 12px;
+  width: 140px;
 }
